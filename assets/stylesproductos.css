@@ -108,7 +108,7 @@ body {
   margin: 0 10%;
   max-height: 88vh;
   color: rgb(8, 3, 19);
-  background-color: #d65a07;
+  background-color: #8de942;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -126,7 +126,7 @@ body {
 .modal-header {
   display: flex;
   justify-content: space-around;
-  background-color: #0ee031;
+  background-color: #6ace19;
   color: rgb(6, 12, 4);
   width: 100%;
 }
@@ -144,8 +144,8 @@ body {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  width: 70%;
-  margin: 10px;
+  width: 90%;
+  margin: 6px;
 }
 
 .modal-container > div > img {
@@ -157,20 +157,20 @@ body {
   font-size: 25px;
   padding: 10px;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 90px;
 }
 
 /*se agregaron unas lineas de css con media querys para que se adapte mejor al responsive :)*/
 
 @media only screen and (max-width: 750px) {
   .modal-container {
-    width: 100%;
-    margin: 0;
-    min-height: 88vh;
+    width: 80%;
+    margin: 20;
+    
   }
 
   .modal-container > .modal-content {
-    justify-content: space-between;
+    
     width: 100%;
     margin: 2px;
   }
@@ -188,13 +188,13 @@ body {
 
 /*CarritoCounter*/
 .cantidad-carrito {
-  background-color: red;
+  background-color: rgb(231, 80, 10);
   color: white;
   border-radius: 50%;
   font-size: 12px;
   padding: 4px;
   top: 37px;
-  right: 14px;
+  
   position: absolute;
   display: none;
 }
